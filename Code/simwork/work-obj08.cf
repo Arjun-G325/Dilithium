@@ -1,0 +1,50 @@
+v 4
+file "C:\Users\DELL\Documents\Arjun_Coding\Dilithium\" ".\rtl_src\keccak_top.vhd" "31a13c3b9ddda6ada8c874137025a4915c5ff0e2" "20261105101503.239":
+  entity keccak_top at 8( 320) + 0 on 75;
+  architecture structure of keccak_top at 28( 766) + 0 on 76;
+file "C:\Users\DELL\Documents\Arjun_Coding\Dilithium\" ".\rtl_src\keccak_datapath.vhd" "b379b23c8ebf0b198608c432bed153c722ce8789" "20261105101502.969":
+  entity keccak_datapath at 8( 320) + 0 on 71;
+  architecture struct of keccak_datapath at 56( 1694) + 0 on 72;
+file "C:\Users\DELL\Documents\Arjun_Coding\Dilithium\" ".\rtl_src\sha3_fsm3.vhd" "1ed22c64d03d4aaa9164af9c703f015b787b9781" "20261105101502.171":
+  entity sha3_fsm3 at 8( 315) + 0 on 66;
+  architecture beh of sha3_fsm3 at 40( 1095) + 0 on 67;
+file "C:\Users\DELL\Documents\Arjun_Coding\Dilithium\" ".\rtl_src\keccak_fsm1.vhd" "e516fbe976e29adbd6d4138cd6ab010aee2d3cf1" "20261105101501.880":
+  entity keccak_fsm1 at 8( 320) + 0 on 62;
+  architecture nocounter of keccak_fsm1 at 47( 1279) + 0 on 63;
+file "C:\Users\DELL\Documents\Arjun_Coding\Dilithium\" ".\rtl_src\keccak_bytepad.vhd" "340c269a56da84a453b08a6a8a514ed2d3247906" "20261105101501.565":
+  entity keccak_bytepad at 8( 320) + 0 on 58;
+  architecture struct of keccak_bytepad at 28( 1109) + 0 on 59;
+file "C:\Users\DELL\Documents\Arjun_Coding\Dilithium\" ".\rtl_src\piso.vhd" "f62535a2090d665d2cb3c16bb40c1d01746f925f" "20261105101501.428":
+  entity piso at 7( 291) + 0 on 54;
+  architecture behavioral of piso at 28( 740) + 0 on 55;
+file "C:\Users\DELL\Documents\Arjun_Coding\Dilithium\" ".\rtl_src\regn.vhd" "168b4fbdb012def158c416bb9b2ee751911da330" "20261105101501.307":
+  entity regn at 7( 291) + 0 on 50;
+  architecture struct of regn at 26( 638) + 0 on 51;
+file "C:\Users\DELL\Documents\Arjun_Coding\Dilithium\" ".\rtl_src\keccak_pkg.vhd" "cfb3f1ee8e668e2157fe38fbc69f8cb87742c01c" "20261105101501.175":
+  package keccak_pkg at 7( 291) + 0 on 46 body;
+  package body keccak_pkg at 49( 1666) + 0 on 47;
+file "C:\Users\DELL\Documents\Arjun_Coding\Dilithium\" ".\rtl_src\sha3_pkg.vhd" "dea96370126f6c81c1cba814140cf4cb77da93c5" "20261105101501.053":
+  package sha3_pkg at 7( 290) + 0 on 44 body;
+  package body sha3_pkg at 449( 13025) + 0 on 45;
+file "C:\Users\DELL\Documents\Arjun_Coding\Dilithium\" ".\rtl_src\countern.vhd" "78272b72fcaa0232ae4dda3ab129dedbd7144ef7" "20261105101501.225":
+  entity countern at 7( 291) + 0 on 48;
+  architecture countern of countern at 32( 862) + 0 on 49;
+file "C:\Users\DELL\Documents\Arjun_Coding\Dilithium\" ".\rtl_src\sipo.vhd" "0eabbdfc58321016b86fefb8a735e3b334d1a188" "20261105101501.361":
+  entity sipo at 7( 291) + 0 on 52;
+  architecture behavioral of sipo at 27( 702) + 0 on 53;
+file "C:\Users\DELL\Documents\Arjun_Coding\Dilithium\" ".\rtl_src\sr_reg.vhd" "2271cacee13381ce55a631dd444c7b732a71b530" "20261105101501.519":
+  entity sr_reg at 7( 291) + 0 on 56;
+  architecture struct of sr_reg at 23( 551) + 0 on 57;
+file "C:\Users\DELL\Documents\Arjun_Coding\Dilithium\" ".\rtl_src\keccak_cons.vhd" "6b226ba535aaa15a66cd4dea9457023059409178" "20261105101501.690":
+  entity keccak_cons at 7( 291) + 0 on 60;
+  architecture keccak_cons of keccak_cons at 22( 725) + 0 on 61;
+file "C:\Users\DELL\Documents\Arjun_Coding\Dilithium\" ".\rtl_src\keccak_fsm2.vhd" "c8864bd5c243aec8a5e5a5788f96d082ae5969f2" "20261105101502.015":
+  entity keccak_fsm2 at 8( 320) + 0 on 64;
+  architecture beh of keccak_fsm2 at 45( 1357) + 0 on 65;
+file "C:\Users\DELL\Documents\Arjun_Coding\Dilithium\" ".\rtl_src\keccak_round.vhd" "23da64fa526d2d6a79983331a658216ef575469a" "20261105101502.249":
+  entity keccak_round at 7( 291) + 0 on 68;
+  architecture gbertoni_round of keccak_round at 25( 1058) + 0 on 69;
+  architecture mrogawski_round of keccak_round at 232( 6686) + 0 on 70;
+file "C:\Users\DELL\Documents\Arjun_Coding\Dilithium\" ".\rtl_src\keccak_control.vhd" "cea10ee486ee889ddf20af38f8fad68a56fd3198" "20261105101503.154":
+  entity keccak_control at 7( 291) + 0 on 73;
+  architecture struct of keccak_control at 56( 1615) + 0 on 74;
